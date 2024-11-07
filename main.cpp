@@ -206,7 +206,7 @@ void writeSTL(const std::string& filename, const vector<unsigned int>& triangles
     }
     
     // Start the STL file with the header
-    file << "solid I_like_creo" << std::endl;
+    file << "solid I_like_cg" << std::endl;
     
     // Write each triangle to the STL file
     for (size_t i = 0; i < triangles.size(); i++) {
@@ -223,7 +223,7 @@ void writeSTL(const std::string& filename, const vector<unsigned int>& triangles
     }
     
     // End the STL file
-    file << "endsolid I_like_creo" << std::endl;
+    file << "endsolid I_like_cg" << std::endl;
     
     file.close();
     std::cout << "STL file '" << filename << "' written successfully." << std::endl;
