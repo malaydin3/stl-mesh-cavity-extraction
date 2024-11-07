@@ -1,5 +1,8 @@
+// Mert Alaydin
+// October 2024
+// Computational Geomerty Challenge
 // compile with :
-// g++ problem_1.cpp -o problem_1.out
+// g++ main.cpp -o main.out
 
 #include <iostream>
 #include <map>
