@@ -5,10 +5,10 @@ CXX = g++
 CXXFLAGS = -Wall -O2
 
 # Target executable
-TARGET = problem_1.out
+TARGET = main.out
 
 # Source file
-SRC = problem_1.cpp
+SRC = main.cpp
 
 # Rule to build the target
 $(TARGET): $(SRC)
